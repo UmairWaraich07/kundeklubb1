@@ -7,6 +7,8 @@ import Partners from "./Partners";
 import SMSEmail from "./SMSEmail";
 import WhatIs from "./WhatIs";
 import Footer from "./Footer";
+import Logo from "./Logo";
+import ContactForm from "./ContactForm";
 
 export {
   Navbar,
@@ -18,4 +20,6 @@ export {
   SMSEmail,
   WhatIs,
   Footer,
+  Logo,
+  ContactForm,
 };

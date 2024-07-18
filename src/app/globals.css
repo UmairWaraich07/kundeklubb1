@@ -1,3 +1,91 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .btn-primary {
+    @apply bg-primary-600 hover:bg-primary-500 transition text-light border border-primary-600 rounded font-semibold px-6 py-2;
+  }
+  .btn-secondary {
+    @apply bg-light hover:bg-[#D7E4FF80] transition text-primary-600 border border-primary-600 rounded font-semibold px-6 py-2;
+  }
+
+  .form-input {
+    @apply rounded-[24px] placeholder:text-base placeholder:text-[#AEAEAE] bg-primary-600/10 text-secondary-600 outline-none focus:outline-none px-6 py-3 focus:border focus:border-primary-600;
+  }
+
+  .form-textarea {
+    @apply outline-none focus:outline-none rounded-[24px] placeholder:text-base placeholder:text-[#AEAEAE] text-secondary-600 bg-primary-600/10 px-6 py-3 focus:border focus:border-primary-600;
+  }
+
+  .form-label {
+    @apply text-base text-secondary-600;
+  }
+
+  .text-gradient {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 6%, #000000 80%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.logos {
+  overflow: hidden;
+  background: white;
+  white-space: nowrap;
+  position: relative;
+}
+
+.logos:before,
+.logos:after {
+  position: absolute;
+  top: 0;
+  width: 250px;
+  height: 100%;
+  content: "";
+  z-index: 2;
+}
+.logos:before,
+.logos:after {
+  position: absolute;
+  top: 0;
+  width: 250px;
+  height: 100%;
+  content: "";
+  z-index: 2;
+}
+
+@media (max-width: 768px) {
+  .logos:before,
+  .logos:after {
+    width: 70px;
+  }
+}
+
+.logos:before {
+  left: 0;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
+}
+
+.logos:after {
+  right: 0;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
+}
+
+.logos:hover .logos-slide {
+  animation-play-state: paused;
+}
+
+.logos-slide {
+  animation: 20s slide infinite linear;
+}

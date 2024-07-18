@@ -1,7 +1,25 @@
+import {
+  ContactUs,
+  Features,
+  Hero,
+  KnowYourCustomers,
+  Partners,
+  SMSEmail,
+  WhatIs,
+} from "@/components";
+
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      I am the body of the page.tsx
+    <main className="min-h-screen w-full ">
+      <Hero />
+      <div className="w-full px-16 max-lg:px-12 max-md:px-8 max-sm:px-4 ">
+        <WhatIs />
+        <KnowYourCustomers />
+        <Partners />
+        <SMSEmail />
+      </div>
+      <Features />
+      <ContactUs />
     </main>
   );
 }

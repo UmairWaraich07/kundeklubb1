@@ -46,9 +46,10 @@ const logos = [
 
 const Partners = () => {
   return (
-    <section className="w-full py-16 max-sm:py-10 overflow-hidden">
-      <h2 className="text-4xl max-sm:text-3xl font-extrabold text-center text-gradient ">
-        A selection of our <span className="text-gradient">Customers</span>
+    <section className="w-full py-16 max-sm:py-12 overflow-hidden">
+      <h2 className="text-4xl max-sm:text-3xl font-extrabold text-center  ">
+        <span className="text-gradient">A selection of our</span>{" "}
+        <span className="text-gradient">Customers</span>
       </h2>
 
       <div className="mt-16 logos">
@@ -60,7 +61,7 @@ const Partners = () => {
               alt={logo.name}
               width={120}
               height={120}
-              className="object-cover w-full h-[35px] max-sm:h-[30px] "
+              className="object-cover w-full h-[35px] max-sm:h-[28px] "
             />
           ))}
         </div>

@@ -10,7 +10,7 @@ const Logo = () => {
         alt="logo"
         width={200}
         height={60}
-        className=" object-contain w-full h-8 max-sm:h-10 "
+        className=" object-contain w-full h-8 max-sm:h-12 "
       />
     </Link>
   );

@@ -4,7 +4,7 @@ import { GeistMono } from "geist/font/mono";
 
 const KnowYourCustomers = () => {
   return (
-    <section className="w-full py-16 max-sm:py-10 ">
+    <section className="w-full py-16 max-sm:py-12 ">
       <h2 className="text-4xl max-sm:text-3xl font-extrabold text-center  ">
         <span className="text-gradient">Get to know your </span>
         <span className="text-primary-600">customers</span>

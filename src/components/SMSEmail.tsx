@@ -3,7 +3,7 @@ import React from "react";
 
 const SMSEmail = () => {
   return (
-    <section className=" py-16 max-sm:py-10 w-full flex max-lg:flex-col items-start justify-between gap-10 max-lg:gap-14 ">
+    <section className=" py-16 max-sm:py-12 w-full flex max-lg:flex-col items-start justify-between gap-10 max-lg:gap-14 ">
       <div className="w-[50%] max-lg:w-full flex-1">
         <h2 className="text-4xl max-sm:text-3xl font-extrabold max-lg:text-center ">
           <span className="text-gradient">A frictionless</span>{" "}

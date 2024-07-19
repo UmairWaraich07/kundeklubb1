@@ -3,7 +3,7 @@ import React from "react";
 
 const Features = () => {
   return (
-    <section className="w-full py-16 max-sm:py-10 px-16 max-lg:px-12 max-md:px-8 max-sm:px-4 bg-[#F0F7FF] ">
+    <section className="w-full py-16 px-16 max-lg:px-12 max-md:px-8 max-sm:px-4 bg-[#F0F7FF] ">
       <h2 className="text-4xl max-sm:text-3xl font-extrabold text-center ">
         <span className="text-gradient">Enjoy Endless</span>{" "}
         <span className="text-primary-600">Features</span>{" "}

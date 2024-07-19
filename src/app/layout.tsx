@@ -6,7 +6,7 @@ import { Footer, Navbar } from "@/components";
 export const metadata: Metadata = {
   title: "Kundeklubb1",
   description:
-    "Kundeklubb1 is a revenue-boosting loyalty platform that enables you to identify, reach, and keep your customers. Kundeklubb1 makes it easy to use data for personalized communication within your very own marketing channel.",
+    "Kundeklubb1 er en inntektsøkende lojalitetsplattform som gjør det mulig for deg å identifisere, nå ut til, og beholde kundene dine. Kundeklubb1 gjør det enkelt å bruke data til personlig kommunikasjon innenfor din egen markedsføringskanal.",
 };
 
 export default function RootLayout({

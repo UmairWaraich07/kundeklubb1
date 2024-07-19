@@ -5,8 +5,8 @@ const Features = () => {
   return (
     <section className="w-full py-16 px-16 max-lg:px-12 max-md:px-8 max-sm:px-4 bg-[#F0F7FF] ">
       <h2 className="text-4xl max-sm:text-3xl font-extrabold text-center ">
-        <span className="text-gradient">Enjoy Endless</span>{" "}
-        <span className="text-primary-600">Features</span>{" "}
+        <span className="text-gradient">Nyt uendelige</span>{" "}
+        <span className="text-primary-600">funksjoner</span>{" "}
       </h2>
 
       <div className="mt-16 max-sm:mt-10 space-y-6">
@@ -21,13 +21,13 @@ const Features = () => {
             />
 
             <h4 className="text-2xl max-sm:text-xl font-bold">
-              Integrations with Leading <br /> Platforms
+              Integrasjoner med ledende <br /> plattformer
             </h4>
             <p className="text-base text-secondary-600">
-              Kundeklubb1 is deeply integrated into world-leading eCommerce and
-              POS ecosystems. It helps connect your customer data, whether they
-              shop online or onsite. Seamless integration ensures a unified
-              experience across all sales channels.
+              Kundeklubb1 er dypt integrert i verdensledende eCommerce- og
+              POS-økosystemer. Det hjelper med å koble sammen kundedata, enten
+              de handler på nett eller i butikk. Sømløs integrasjon sikrer en
+              enhetlig opplevelse på tvers av alle salgskanaler.
             </p>
           </div>
           <div className="w-[40%] max-md:w-full flex items-center justify-center ">
@@ -51,13 +51,13 @@ const Features = () => {
             />
 
             <h4 className="text-2xl max-sm:text-xl font-bold">
-              GDPR and TCPA Compliance <br /> Ensured
+              GDPR- og TCPA-overholdelse <br /> sikret
             </h4>
             <p className="text-base text-secondary-600">
-              All data gathered by Kundeklubb1 follows the guidelines set by the
-              TCPA (US) and adheres to GDPR (EU) legislation. We ensure that the
-              customer and personal data collected are compliant, providing
-              peace of mind for your business and your customers.
+              All data samlet inn av Kundeklubb1 følger retningslinjene satt av
+              TCPA (USA) og overholder GDPR (EU) lovgivning. Vi sørger for at
+              kundens og personlige data er i samsvar med regelverket, og gir
+              trygghet for både din virksomhet og dine kunder.
             </p>
           </div>
           <div className="w-[40%] max-md:w-full  flex items-center justify-center ">
@@ -81,18 +81,18 @@ const Features = () => {
             />
 
             <h4 className="text-2xl max-sm:text-xl font-bold">
-              Advanced Analytics <br /> and Insights
+              Avanserte analyser og <br /> innsikter
             </h4>
             <p className="text-base text-secondary-600">
-              Measure your impact with powerful analytic tools. Understand your
-              customers&apos; buying habits and preferences. Kundeklubb1 CRM
-              provides a comprehensive view of your customer base, measuring
-              conversion rates and ROI for better decisions.
+              Mål din påvirkning med kraftige analyseverktøy. Forstå kundenes
+              kjøpsvaner og preferanser. Kundeklubb1 CRM gir en omfattende
+              oversikt over kundebasen din, og måler konverteringsrater og ROI
+              for bedre beslutninger.
             </p>
           </div>
           <div className="w-[40%] max-md:w-full  flex items-center justify-center ">
             <Image
-              src="/Dashboard frame (1).png"
+              src="/dashboard.png"
               alt="dashboard-image"
               width={400}
               height={400}

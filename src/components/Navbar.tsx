@@ -9,7 +9,7 @@ const Navbar = () => {
     >
       <Logo />
       <div className="w-full flex items-center justify-end gap-4 max-sm:gap-2 ">
-        <button className="btn-secondary ">Sign in</button>
+        <button className="btn-secondary ">Logg inn</button>
         <button className="btn-primary max-sm:hidden">Demo</button>
       </div>
     </nav>

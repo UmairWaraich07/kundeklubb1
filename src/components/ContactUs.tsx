@@ -8,13 +8,13 @@ const ContactUs = () => {
       <div className="w-full flex items-center justify-center gap-10">
         <div className="w-full">
           <h2 className="text-4xl max-sm:text-3xl font-extrabold max-lg:text-center  ">
-            <span className="text-gradient">Get in</span>{" "}
-            <span className="text-primary-600">touch</span>{" "}
+            <span className="text-gradient">Kom i</span>{" "}
+            <span className="text-primary-600">kontakt</span>{" "}
           </h2>
           <p className=" mt-6 text-lg max-sm:text-base text-secondary-600 max-lg:text-center max-w-xl mx-auto ">
-            If you have any questions, feel free to contact us by filling out
-            the form below. We’ll do our best to help you as quickly as
-            possible.
+            Hvis du har spørsmål, kan du gjerne kontakte oss ved å fylle ut
+            skjemaet nedenfor. Vi vil gjøre vårt beste for å hjelpe deg så raskt
+            som mulig.
           </p>
 
           <ContactForm />

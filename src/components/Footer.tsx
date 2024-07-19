@@ -15,7 +15,7 @@ const Footer = () => {
         />
       </Link>
       <p className="text-sm text-secondary-600">
-        &copy; 2024 Kundeklubb1. All rights reserved.
+        &copy; 2024 Kundeklubb1. Alle rettigheter forbeholdt.
       </p>
     </footer>
   );

@@ -5,7 +5,7 @@ const WhatIs = () => {
   return (
     <section className="w-full pt-32 max-lg:pt-24 pb-16 max-sm:pb-12">
       <h2 className="text-center font-extrabold text-4xl max-sm:text-3xl">
-        <span className="text-gradient">What’s in</span>{" "}
+        <span className="text-gradient">Hva er i</span>{" "}
         <span className="text-primary-600">Kundeklubb1?</span>
       </h2>
       <div className="max-sm:hidden mt-16 max-sm:mt-10 w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 justify-center items-start ">
@@ -20,7 +20,7 @@ const WhatIs = () => {
             />
           </div>
           <h4 className="text-left font-bold max-xl:text-lg max-md:text-base text-xl text-dark ">
-            Sell MORE for less!
+            Selg MER for mindre!
           </h4>
         </div>
         <div className=" space-y-4 rounded-lg border border-primary-400/40 hover:border-primary-600 bg-[#F6FAFF4D] cursor-pointer shadow-sm">
@@ -34,7 +34,7 @@ const WhatIs = () => {
             />
           </div>
           <h4 className=" p-4 text-left font-bold max-xl:text-lg max-md:text-base text-xl text-dark ">
-            Auto GDPR/TCPA compliance
+            GDPR/TCPA-overholdelse
           </h4>
         </div>
         <div className="p-4 space-y-4 rounded-lg border border-primary-400/40 hover:border-primary-600 bg-[#F6FAFF4D] cursor-pointer shadow-sm">
@@ -48,7 +48,7 @@ const WhatIs = () => {
             />
           </div>
           <h4 className="text-left font-bold max-xl:text-lg max-md:text-base text-xl text-dark ">
-            Know your customers!
+            Kjenn kundene dine!
           </h4>
         </div>
 
@@ -56,79 +56,79 @@ const WhatIs = () => {
         <div className="space-y-4 lg:hidden max-sm:hidden ">
           <div className=" max-sm:hidden px-4 py-6 space-y-2 rounded-lg border border-primary-400/40 hover:border-primary-600 bg-[#F6FAFF4D] cursor-pointer shadow-sm">
             <h4 className="text-left font-bold max-md:text-base text-lg text-dark ">
-              Effortless Customer Retention
+              Problemfri kundelojalitet
             </h4>
             <p className="text-base text-secondary-600 ">
-              A loyalty program makes it so much easier to get customers back to
-              your store.
+              Et lojalitetsprogram gjør det mye enklere å få kundene tilbake til
+              butikken din.
             </p>
           </div>
           <div className=" max-sm:hidden px-4 py-6 space-y-2 rounded-lg border border-primary-400/40 hover:border-primary-600 bg-[#F6FAFF4D] cursor-pointer shadow-sm">
             <h4 className="text-left font-bold max-md:text-base text-lg text-dark ">
-              Consent-Driven Communication
+              Samtykkedrevet kommunikasjon
             </h4>
             <p className="text-base text-secondary-600 ">
-              A store CANNOT communicate with its customers without their
-              consent.
+              En butikk KAN IKKE kommunisere med kundene sine uten deres
+              samtykke.
             </p>
           </div>
         </div>
 
         <div className="  max-lg:hidden px-4 py-8 max-lg:py-6  space-y-2 rounded-lg border border-primary-400/40 hover:border-primary-600 bg-[#F6FAFF4D] cursor-pointer shadow-sm">
           <h4 className="text-left font-bold max-md:text-base text-lg text-dark ">
-            Effortless Customer Retention
+            Problemfri kundelojalitet
           </h4>
           <p className="text-base text-secondary-600 ">
-            A loyalty program makes it so much easier to get customers back to
-            your store.
+            Et lojalitetsprogram gjør det mye enklere å få kundene tilbake til
+            butikken din.
           </p>
         </div>
         <div className="  max-lg:hidden px-4 py-8 max-lg:py-6 space-y-2 rounded-lg border border-primary-400/40 hover:border-primary-600 bg-[#F6FAFF4D] cursor-pointer shadow-sm">
           <h4 className="text-left font-bold max-md:text-base text-lg text-dark ">
-            Consent-Driven Communication
+            Samtykkedrevet kommunikasjon
           </h4>
           <p className="text-base text-secondary-600 ">
-            A store CANNOT communicate with its customers without their consent.
+            En butikk KAN IKKE kommunisere med kundene sine uten deres samtykke.
           </p>
         </div>
         <div className=" max-sm:hidden px-4 py-8 max-lg:py-6 space-y-2 rounded-lg border border-primary-400/40 hover:border-primary-600 bg-[#F6FAFF4D] cursor-pointer shadow-sm">
           <h4 className="text-left font-bold max-md:text-base text-lg text-dark ">
-            Customer Insights Simplified
+            Forenklede kundeinnsikter
           </h4>
           <p className="text-base text-secondary-600 ">
-            With Kundeklubb1 you can analyze your customers’ interests and
-            purchase patterns.
+            Med Kundeklubb1 kan du enkelt analysere kundenes interesser og
+            kjøpsmønstre.
           </p>
         </div>
         <div className=" max-sm:hidden px-4 py-8 max-lg:py-6 space-y-2 rounded-lg border border-primary-400/40 hover:border-primary-600 bg-[#F6FAFF4D] cursor-pointer shadow-sm">
           <h4 className="text-left font-bold max-md:text-base text-lg text-dark ">
-            Own Your Marketing
+            Eie markedsføringen din
           </h4>
           <p className="text-base text-secondary-600 ">
-             With Kudeklubb1, you OWN a direct marketing channel and all
-            customer data. This means you can spend less on expensive marketing
-            and be more profitable.
+             Med Kundeklubb1 EIER du en direkte markedsføringskanal og alle
+            kundedata. Dette betyr at du kan bruke mindre på kostbar
+            markedsføring og bli mer lønnsom.
           </p>
         </div>
         <div className=" max-sm:hidden px-4 py-8 max-lg:py-6 space-y-2 rounded-lg border border-primary-400/40 hover:border-primary-600 bg-[#F6FAFF4D] cursor-pointer shadow-sm">
           <h4 className="text-left font-bold max-md:text-base text-lg text-dark ">
-            Automated Consent Compliance
+            Samtykkeoverholdelse
           </h4>
           <p className="text-base text-secondary-600 ">
-            Kundeklubb1 members automatically give their TCPA & GDPR approved
-            consent, which means you can communicate directly with them in your
-            own marketing channel.
+            Kundeklubb1-medlemmer gir automatisk sitt TCPA- og GDPR-godkjente
+            samtykke, noe som betyr at du kan kommunisere direkte med dem i din
+            egen markedsføringskanal.
           </p>
         </div>
 
         <div className=" max-sm:hidden px-4 py-8 max-lg:py-6 space-y-2 rounded-lg border border-primary-400/40 hover:border-primary-600 bg-[#F6FAFF4D] cursor-pointer shadow-sm">
           <h4 className="text-left font-bold max-md:text-base text-lg text-dark ">
-            Personalized Loyalty Campaigns
+            Personlige lojalitetskampanjer
           </h4>
           <p className="text-base text-secondary-600 ">
-             This means that you can run targeted, personalized campaigns to
-            make your customers more loyal - also when they&apos;re not in your
-            store.
+             Dette betyr at du kan kjøre målrettede og personlige kampanjer for
+            å gjøre kundene dine mer lojale og engasjerte – også når de ikke er
+            i butikken din.
           </p>
         </div>
       </div>
@@ -147,25 +147,25 @@ const WhatIs = () => {
             />
           </div>
           <h4 className="text-left font-bold max-xl:text-lg max-md:text-base text-xl text-dark ">
-            Sell MORE for less!
+            Selg MER for mindre!
           </h4>
         </div>
 
         <div className=" px-4 py-6 space-y-2 rounded-lg border border-primary-400/40 hover:border-primary-600 bg-[#F6FAFF4D] cursor-pointer shadow-sm">
           <h4 className="text-left font-bold max-md:text-base text-lg text-dark ">
-            Effortless Customer Retention
+            Problemfri kundelojalitet
           </h4>
           <p className="text-base text-secondary-600 ">
-            A loyalty program makes it so much easier to get customers back to
-            your store.
+            Et lojalitetsprogram gjør det mye enklere å få kundene tilbake til
+            butikken din.
           </p>
         </div>
         <div className=" px-4 py-6 space-y-2 rounded-lg border border-primary-400/40 hover:border-primary-600 bg-[#F6FAFF4D] cursor-pointer shadow-sm">
           <h4 className="text-left font-bold max-md:text-base text-lg text-dark ">
-            Consent-Driven Communication
+            Samtykkedrevet kommunikasjon
           </h4>
           <p className="text-base text-secondary-600 ">
-            A store CANNOT communicate with its customers without their consent.
+            En butikk KAN IKKE kommunisere med kundene sine uten deres samtykke.
           </p>
         </div>
 
@@ -181,26 +181,26 @@ const WhatIs = () => {
             />
           </div>
           <h4 className=" p-4 text-left font-bold max-xl:text-lg max-md:text-base text-xl text-dark ">
-            Auto GDPR/TCPA compliance
+            GDPR/TCPA-overholdelse
           </h4>
         </div>
         <div className=" px-4 py-6 space-y-2 rounded-lg border border-primary-400/40 hover:border-primary-600 bg-[#F6FAFF4D] cursor-pointer shadow-sm">
           <h4 className="text-left font-bold max-md:text-base text-lg text-dark ">
-            Customer Insights Simplified
+            Forenklede kundeinnsikter
           </h4>
           <p className="text-base text-secondary-600 ">
-            With Kundeklubb1 you can analyze your customers’ interests and
-            purchase patterns.
+            Med Kundeklubb1 kan du enkelt analysere kundenes interesser og
+            kjøpsmønstre.
           </p>
         </div>
         <div className=" px-4 py-6 space-y-2 rounded-lg border border-primary-400/40 hover:border-primary-600 bg-[#F6FAFF4D] cursor-pointer shadow-sm">
           <h4 className="text-left font-bold max-md:text-base text-lg text-dark ">
-            Own Your Marketing
+            Eie markedsføringen din
           </h4>
           <p className="text-base text-secondary-600 ">
-             With Kudeklubb1, you OWN a direct marketing channel and all
-            customer data. This means you can spend less on expensive marketing
-            and be more profitable.
+             Med Kundeklubb1 EIER du en direkte markedsføringskanal og alle
+            kundedata. Dette betyr at du kan bruke mindre på kostbar
+            markedsføring og bli mer lønnsom.
           </p>
         </div>
 
@@ -216,29 +216,29 @@ const WhatIs = () => {
             />
           </div>
           <h4 className="text-left font-bold max-xl:text-lg max-md:text-base text-xl text-dark ">
-            Know your customers!
+            Kjenn kundene dine!
           </h4>
         </div>
 
         <div className=" px-4 py-6 space-y-2 rounded-lg border border-primary-400/40 hover:border-primary-600 bg-[#F6FAFF4D] cursor-pointer shadow-sm">
           <h4 className="text-left font-bold max-md:text-base text-lg text-dark ">
-            Automated Consent Compliance
+            Samtykkeoverholdelse
           </h4>
           <p className="text-base text-secondary-600 ">
-            Kundeklubb1 members automatically give their TCPA & GDPR approved
-            consent, which means you can communicate directly with them in your
-            own marketing channel.
+            Kundeklubb1-medlemmer gir automatisk sitt TCPA- og GDPR-godkjente
+            samtykke, noe som betyr at du kan kommunisere direkte med dem i din
+            egen markedsføringskanal.
           </p>
         </div>
 
         <div className=" px-4 py-6 space-y-2 rounded-lg border border-primary-400/40 hover:border-primary-600 bg-[#F6FAFF4D] cursor-pointer shadow-sm">
           <h4 className="text-left font-bold max-md:text-base text-lg text-dark ">
-            Personalized Loyalty Campaigns
+            Personlige lojalitetskampanjer
           </h4>
           <p className="text-base text-secondary-600 ">
-             This means that you can run targeted, personalized campaigns to
-            make your customers more loyal - also when they&apos;re not in your
-            store.
+             Dette betyr at du kan kjøre målrettede og personlige kampanjer for
+            å gjøre kundene dine mer lojale og engasjerte – også når de ikke er
+            i butikken din.
           </p>
         </div>
       </div>

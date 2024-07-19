@@ -48,8 +48,8 @@ const Partners = () => {
   return (
     <section className="w-full py-16 max-sm:py-12 overflow-hidden">
       <h2 className="text-4xl max-sm:text-3xl font-extrabold text-center  ">
-        <span className="text-gradient">A selection of our</span>{" "}
-        <span className="text-gradient">Customers</span>
+        <span className="text-gradient">Et utvalg av våre </span>{" "}
+        <span className="text-gradient">kunder</span>
       </h2>
 
       <div className="mt-16 logos">

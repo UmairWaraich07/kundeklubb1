@@ -23,7 +23,7 @@ const ContactForm = () => {
     <form className=" mt-8 w-full space-y-6 max-w-xl mx-auto ">
       <div className="flex flex-col gap-2 ">
         <label htmlFor="fullname" className="form-label">
-          Full Name
+          Fullt Navn
         </label>
         <input
           id="fullname"
@@ -38,7 +38,7 @@ const ContactForm = () => {
 
       <div className="flex flex-col gap-2 ">
         <label htmlFor="email" className="form-label">
-          Your Email
+          Din E-post
         </label>
         <input
           type="text"
@@ -53,7 +53,7 @@ const ContactForm = () => {
 
       <div className="flex flex-col gap-2 ">
         <label htmlFor="message" className="form-label">
-          Message
+          Melding
         </label>
         <textarea
           id="message"
@@ -62,13 +62,13 @@ const ContactForm = () => {
           onChange={(e) =>
             setFormData((prev) => ({ ...prev, message: e.target.value }))
           }
-          placeholder="Type your message here..."
+          placeholder="Skriv din melding her..."
         />
       </div>
 
       <div className="w-full flex max-lg:justify-end">
         <button type="submit" className="btn-primary" onClick={handleSubmit}>
-          Send Message
+          Send melding
         </button>
       </div>
     </form>

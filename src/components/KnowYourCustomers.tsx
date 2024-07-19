@@ -6,21 +6,20 @@ const KnowYourCustomers = () => {
   return (
     <section className="w-full py-16 max-sm:py-12 ">
       <h2 className="text-4xl max-sm:text-3xl font-extrabold text-center  ">
-        <span className="text-gradient">Get to know your </span>
-        <span className="text-primary-600">customers</span>
+        <span className="text-gradient">Bli kjent med dine </span>
+        <span className="text-primary-600">kunder</span>
       </h2>
       <div className="w-full grid grid-cols-2 max-xl:grid-cols-1 gap-x-4 gap-y-6 mt-16 max-sm:mt-10 ">
         <div className="bg-[#84B1FF4D] max-xl:order-1 rounded-lg w-full p-8 max-sm:p-6 max-w-[900px] mx-auto ">
           <div className="flex max-md:flex-col-reverse items-center justify-between gap-8">
             <div className="w-[60%] max-md:w-full ">
               <h4 className="text-2xl max-sm:text-xl font-bold">
-                Understand Their <br /> Preferences
+                Forstå deres <br /> preferanser
               </h4>
               <p className="text-base max-sm:text-sm text-secondary-600 mt-3 ">
-                Gain deep insights into your customers&apos; preferences and
-                behaviors. Our platform analyzes purchase patterns, browsing
-                history, and interactions to help you tailor personalized
-                experiences.
+                Få dyp innsikt i kundenes preferanser og atferd. Plattformen vår
+                analyserer kjøpsmønstre, nettleserhistorikk og interaksjoner for
+                å hjelpe deg med å skreddersy personlige opplevelser.
               </p>
             </div>
             <div className="w-[40%] max-md:w-full ">
@@ -71,7 +70,7 @@ const KnowYourCustomers = () => {
                 <div
                   className={`${GeistMono.className} text-[#20CD96] text-xs max-sm:text-[10px] font-extrabold`}
                 >
-                  Purchased a pair of shoe
+                  Kjøpt et par sko
                 </div>
               </div>
               <div className="bg-light px-5 max-sm:px-3 max-sm:py-2 py-4 rounded-2xl flex items-center justify-between shadow-md">
@@ -100,20 +99,20 @@ const KnowYourCustomers = () => {
                 <div
                   className={`${GeistMono.className} text-[#20CD96] text-xs max-sm:text-[10px] font-extrabold`}
                 >
-                  Earned 2900 points
+                  Tjent 2900 poeng
                 </div>
               </div>
             </div>
           </div>
           <div className="mt-8 max-sm:mt-0 ">
             <h4 className="text-2xl max-sm:text-xl font-bold">
-              Measure Engagement and <br /> Loyalty
+              Mål engasjement ogd <br /> lojalitet
             </h4>
             <p className="text-base max-sm:text-sm text-secondary-600 mt-3 ">
-              Track customer engagement and loyalty metrics effortlessly. Our
-              analytics tools provide real-time feedback on program
-              effectiveness, helping you optimize strategies and maximize
-              customer retention.
+              Spor kundens engasjement og lojalitetsmålinger uten anstrengelse.
+              Våre analyseverktøy gir tilbakemeldinger i sanntid om programmets
+              effektivitet, og hjelper deg med å optimalisere strategier og
+              maksimere kundelojalitet.
             </p>
           </div>
         </div>
@@ -121,13 +120,13 @@ const KnowYourCustomers = () => {
           <div className="flex max-md:flex-col-reverse items-center justify-between gap-8">
             <div className="w-[60%] max-md:w-full ">
               <h4 className="text-2xl max-sm:text-xl font-bold">
-                Foster Lasting <br /> Relationships
+                Bygg varige <br /> relasjoner
               </h4>
               <p className="text-base max-sm:text-sm text-secondary-600 mt-3 ">
-                Build strong, lasting relationships by understanding what
-                matters most to your customers. Engage with targeted rewards,
-                exclusive offers, and personalized communications that resonate
-                with their interests.
+                Bygg sterke, varige relasjoner ved å forstå hva som betyr mest
+                for kundene dine. Engasjer dem med målrettede belønninger,
+                eksklusive tilbud og personlig kommunikasjon som treffer deres
+                interesser.
               </p>
             </div>
             <div className="w-[40%] max-md:w-full ">

@@ -4,7 +4,6 @@ import {
   Hero,
   KnowYourCustomers,
   Partners,
-  SMSEmail,
   WhatIs,
 } from "@/components";
 
@@ -16,7 +15,6 @@ export default function Home() {
         <WhatIs />
         <KnowYourCustomers />
         <Partners />
-        <SMSEmail />
       </div>
       <Features />
       <ContactUs />

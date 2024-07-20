@@ -27,7 +27,7 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="w-full lg:w-[45%]  overflow-hidden flex items-start justify-center  max-lg:h-[400px] max-sm:h-[300px] max-lg:max-w-[500px] max-sm:max-w-[400px]  lg:-mt-24">
+        <div className="w-full lg:w-[45%]  overflow-hidden flex items-start justify-center  max-lg:h-[400px] max-sm:h-[300px] max-lg:max-w-[500px] max-sm:max-w-[400px]  lg:-mt-40">
           <Image
             src="/hero-image.png"
             alt="hero-image"

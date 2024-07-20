@@ -46,7 +46,7 @@ const logos = [
 
 const Partners = () => {
   return (
-    <section className="w-full py-16 max-sm:py-12 overflow-hidden">
+    <section className="w-full pt-16 pb-28 max-sm:pt-12 max-sm:pb-20 overflow-hidden">
       <h2 className="text-4xl max-sm:text-3xl font-extrabold text-center  ">
         <span className="text-gradient">Et utvalg av våre </span>{" "}
         <span className="text-gradient">kunder</span>

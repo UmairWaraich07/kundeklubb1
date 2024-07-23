@@ -20,7 +20,7 @@ const ContactForm = () => {
   };
 
   return (
-    <form className=" mt-8 w-full space-y-6 max-w-xl mx-auto ">
+    <form className=" mt-8 w-full space-y-6 max-w-xl max-lg:mx-auto ">
       <div className="flex flex-col gap-2 ">
         <label htmlFor="fullname" className="form-label">
           Fullt Navn

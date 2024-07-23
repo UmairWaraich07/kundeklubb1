@@ -11,7 +11,7 @@ const ContactUs = () => {
             <span className="text-gradient">Kom i</span>{" "}
             <span className="text-primary-600">kontakt</span>{" "}
           </h2>
-          <p className=" mt-6 text-lg max-sm:text-base text-secondary-600 max-lg:text-center max-w-xl mx-auto ">
+          <p className=" mt-6 text-lg max-sm:text-base text-secondary-600 max-lg:text-center max-w-xl max-lg:mx-auto ">
             Hvis du har spørsmål, kan du gjerne kontakte oss ved å fylle ut
             skjemaet nedenfor. Vi vil gjøre vårt beste for å hjelpe deg så raskt
             som mulig.

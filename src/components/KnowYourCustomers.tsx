@@ -4,7 +4,7 @@ import { GeistMono } from "geist/font/mono";
 
 const KnowYourCustomers = () => {
   return (
-    <section className="w-full py-16 max-sm:py-12 ">
+    <section className="w-full pt-16 pb-24 max-sm:pt-12 max-sm:pb-16 ">
       <h2 className="text-4xl max-sm:text-3xl font-extrabold text-center  ">
         <span className="text-gradient">Bli kjent med dine </span>
         <span className="text-primary-600">kunder</span>
@@ -106,7 +106,7 @@ const KnowYourCustomers = () => {
           </div>
           <div className="mt-8 max-sm:mt-0 ">
             <h4 className="text-2xl max-sm:text-xl font-bold">
-              Mål engasjement ogd <br /> lojalitet
+              Mål engasjement og <br /> lojalitet
             </h4>
             <p className="text-base max-sm:text-sm text-secondary-600 mt-3 ">
               Spor kundens engasjement og lojalitetsmålinger uten anstrengelse.

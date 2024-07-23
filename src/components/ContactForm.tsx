@@ -29,7 +29,7 @@ const ContactForm = () => {
           id="fullname"
           type="text"
           className="form-input"
-          placeholder="John Doe"
+          placeholder="Ola Nordmann"
           onChange={(e) =>
             setFormData((prev) => ({ ...prev, fullname: e.target.value }))
           }
@@ -44,7 +44,7 @@ const ContactForm = () => {
           type="text"
           id="email"
           className="form-input"
-          placeholder="example@company.com"
+          placeholder="eksempel@dinbedrift.no"
           onChange={(e) =>
             setFormData((prev) => ({ ...prev, email: e.target.value }))
           }

@@ -3,9 +3,10 @@ import React from "react";
 
 const WhatIs = () => {
   return (
-    <section className="w-full pt-32 max-lg:pt-24 pb-16 max-sm:pb-12">
+    <section className="w-full pt-28 max-lg:pt-24 pb-16 max-sm:pb-12">
       <h2 className="text-center font-extrabold text-4xl max-sm:text-3xl">
-        <span className="text-gradient">Hva er i</span>{" "}
+        <span className="text-gradient">Hva kan man forvente i </span>{" "}
+        <br className="max-sm:hidden" />
         <span className="text-primary-600">Kundeklubb1?</span>
       </h2>
       <div className="max-sm:hidden mt-16 max-sm:mt-10 w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 justify-center items-start ">
@@ -20,7 +21,7 @@ const WhatIs = () => {
             />
           </div>
           <h4 className="text-left font-bold max-xl:text-lg max-md:text-base text-xl text-dark ">
-            Selg MER for mindre!
+            Høyere inntjening
           </h4>
         </div>
         <div className=" space-y-4 rounded-lg border border-primary-400/40 hover:border-primary-600 bg-[#F6FAFF4D] cursor-pointer shadow-sm">
@@ -48,7 +49,7 @@ const WhatIs = () => {
             />
           </div>
           <h4 className="text-left font-bold max-xl:text-lg max-md:text-base text-xl text-dark ">
-            Kjenn kundene dine!
+            Få et større innblikk i kundene
           </h4>
         </div>
 
@@ -147,7 +148,7 @@ const WhatIs = () => {
             />
           </div>
           <h4 className="text-left font-bold max-xl:text-lg max-md:text-base text-xl text-dark ">
-            Selg MER for mindre!
+            Høyere inntjening
           </h4>
         </div>
 
@@ -216,7 +217,7 @@ const WhatIs = () => {
             />
           </div>
           <h4 className="text-left font-bold max-xl:text-lg max-md:text-base text-xl text-dark ">
-            Kjenn kundene dine!
+            Få et større innblikk i kundene
           </h4>
         </div>
 

@@ -21,10 +21,10 @@ const Features = () => {
             />
 
             <h4 className="text-2xl max-sm:text-xl font-bold">
-              Integrasjoner med ledende <br /> plattformer
+              (Snart) Integrasjoner med ledende <br /> plattformer
             </h4>
             <p className="text-base text-secondary-600">
-              Kundeklubb1 er dypt integrert i verdensledende eCommerce- og
+              Kundeklubb1 blir dypt integrert i verdensledende eCommerce- og
               POS-økosystemer. Det hjelper med å koble sammen kundedata, enten
               de handler på nett eller i butikk. Sømløs integrasjon sikrer en
               enhetlig opplevelse på tvers av alle salgskanaler.
